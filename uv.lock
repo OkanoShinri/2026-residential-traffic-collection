@@ -1,0 +1,26 @@
+version = 1
+revision = 3
+requires-python = ">=3.13"
+
+[[package]]
+name = "client"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "httpcloak" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "httpcloak", specifier = ">=1.7.2" }]
+
+[[package]]
+name = "httpcloak"
+version = "1.7.2"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/0c/80/9454e87249a869f1c4a942407cfd18d51e768290601ea5d27ea90d15ac21/httpcloak-1.7.2-py3-none-macosx_10_9_x86_64.whl", hash = "sha256:f5aa4ba2e82ec5987e2bb9abf115c7ede15ea139c2df0d3c8501b92c2e0d5cd4", size = 5040830, upload-time = "2026-09-02T22:56:23.646Z" },
+    { url = "https://files.pythonhosted.org/packages/95/f7/f5aee2c28a053839ab4f5d3ca59d96ecef44cfe6ca848700c9b3a6008495/httpcloak-1.7.2-py3-none-macosx_11_0_arm64.whl", hash = "sha256:d2e49844045746bfce285c90de49912fbdc31b0eae6be35e50b1f730533fc266", size = 4627968, upload-time = "2026-09-02T22:56:25.146Z" },
+    { url = "https://files.pythonhosted.org/packages/88/03/7555fcd9b1680d1829121d34646f071333520d0e66ad35189c8657d06dba/httpcloak-1.7.2-py3-none-manylinux_2_17_aarch64.whl", hash = "sha256:773ccac94ebb6d276fe8668969864be2749e47f77dee3c65c3fc9c448537eb93", size = 4810047, upload-time = "2026-09-02T22:56:26.428Z" },
+    { url = "https://files.pythonhosted.org/packages/da/1b/dfb3bde4add5b221f266db1c08bf39fde2cefd8b535cf42c36009597c227/httpcloak-1.7.2-py3-none-manylinux_2_17_x86_64.whl", hash = "sha256:7befa2a497a0a1f687ae03f2aa243afd0cc60037478b892933dc480334496938", size = 5319301, upload-time = "2026-09-02T22:56:27.74Z" },
+    { url = "https://files.pythonhosted.org/packages/2b/b3/67f6b10179f7d7de17fa2bae1bccf727e594e741cd7a1591c8c61144270e/httpcloak-1.7.2-py3-none-win_amd64.whl", hash = "sha256:ed92bb83ba9121d00c35ed85718a5e085be9eae63d4b8371ff78f6de6ab10d95", size = 5109964, upload-time = "2026-09-02T22:56:29.089Z" },
+]

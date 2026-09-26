@@ -1,0 +1,15 @@
+[project]
+name = "quic-dataset-client"
+version = "0.1.0"
+description = "データセット収集用: httpcloak で HTTP/3 リクエストを送信する"
+readme = "README.md"
+authors = [
+    { name = "OkanoShinri", email = "okano.shinri.ot9@naist.ac.jp" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "httpcloak==1.7.2",
+]
+
+[tool.uv]
+package = false
